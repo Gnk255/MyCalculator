@@ -12,6 +12,7 @@ struct MyCalculatorApp: App {
     @StateObject var viewModel = ViewModel()
     
     var body: some Scene {
+        
         WindowGroup {
             mainView()
                 .environmentObject(viewModel)
